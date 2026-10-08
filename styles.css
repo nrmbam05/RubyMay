@@ -341,7 +341,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color:rgb(251, 176, 213);
+   background-color: #ffa0a0;
     padding: 15px;
     text-align: center;
     z-index: 10;
