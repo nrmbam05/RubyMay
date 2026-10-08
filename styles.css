@@ -1,6 +1,6 @@
 body{font-family:'Inter', sans-serif
     margin:0;
-    background-color: rgb(251, 176, 213);
+     background-color: #ffa0a0;
     color:#8b0f0f;
     text-align: center;}
 
@@ -23,7 +23,7 @@ html, body {
 
 
 .gallery{
-    background-color: #f1dae7;
+    background-color: #f7d1c9;
     padding: 40px;
     max-width: 10000px;
     margin: 0 auto;
