@@ -28,9 +28,14 @@
 id="flower-page">
 
 <div class="artwork-hero">
-  <div class="artwork-main">
-                <img src="Ruakakasurf.jpg" alt="portrait of a lady surfing" class="artwork-cover">
-        </div>
+          <div class="artwork-main">
+ <img src="Ruakakasurf.jpg" alt="portrait of a lady surfing" class="artwork-cover" id="main-img">
+  <div class="thumbs">
+    <img src="Ruakakasurf.jpg" alt="portrait of a lady, full view" class="thumb" onclick="swapImage(this)">
+    <img src="ppsurfgirl.jgp.JPG" alt="closeup" class="thumb" onclick="swapImage(this)">
+<img src="printsurfgirl.jpg" alt="poster on the wall" class="thumb" onclick="swapImage(this)">  </div>
+</div>
+
 
      <div class="artwork-info">
       <p class="sale-title">Surfing at Ruakaka</p>
@@ -43,7 +48,9 @@ id="flower-page">
 <p class="info-desc"> completed 01/10/2025.</p>
 <p class="info-desc"> Oil on paper</p>
 <p class="info-desc">40x51cm </p>
-<p class="info-desc">Not for sale</p>
+<p class="info-desc">Original not for sale </p>
+<p class="info-desc"> A4 prints available $28</p>
+       
 
 <div>
 
@@ -54,6 +61,11 @@ id="flower-page">
 
 </div>
 
+<script>
+  function swapImage(thumb) {
+    document.getElementById('main-img').src = thumb.src;
+  }
+</script>
 </body>
 
 </body>
