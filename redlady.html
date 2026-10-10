@@ -29,9 +29,14 @@
 id="flower-page">
 
 <div class="artwork-hero">
-  <div class="artwork-main">
-               <img src="Girl and patterns.jpg" alt="portrait of a lady" class="artwork-cover">
-        </div>
+              <div class="artwork-main">
+<img src="Girl and patterns.jpg" alt="portrait of a lady" class="artwork-cover" id="main-img">
+  <div class="thumbs">
+    <img src="Girl and patterns.jpg" alt="portrait of a lady, full view" class="thumb" onclick="swapImage(this)">
+    <img src="yellowprint.JPG" alt="closeup" class="thumb" onclick="swapImage(this)">
+    <img src="ppyellow.jpg" alt="poster", on the wall" class="thumb" onclick="swapImage(this)">
+  </div>
+</div>
 
      <div class="artwork-info">
       <p class="sale-title">Girl in patterns</p>
@@ -46,7 +51,8 @@ id="flower-page">
 <p class="info-desc"> completed 01/09/2026.</p>
 <p class="info-desc"> Oil on Canvas</p>
 <p class="info-desc">40x51cm </p>
-<p class="info-desc">$1,150 </p>
+<p class="info-desc">original $1,150 </p>
+<p class="info-desc">A4 print $28 </p>
 
 <div>
 
@@ -56,7 +62,11 @@ id="flower-page">
   </div>
 
 </div>
-
+<script>
+  function swapImage(thumb) {
+    document.getElementById('main-img').src = thumb.src;
+  }
+</script>
 </body>
 
 </body>
